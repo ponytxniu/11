@@ -56,7 +56,7 @@ $ chainlit hello
 - 例子
 - 参考（完整的API文档）
 
-## 🚀 快速开始
+## 🚀  快速开始
 
 ### 🐍 python代码
 
