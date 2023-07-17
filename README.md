@@ -79,7 +79,10 @@ def main(message: str):
 $ chainlit run demo.py -w
 ```
 
-<img src="./images/quick-start.png" alt="Quick Start"></img>
+
+<img src="/images/quick-start.png" alt="Quick Start"></img>
+
+
 
 ### 🔗 和 LangChain
 
