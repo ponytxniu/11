@@ -32,7 +32,7 @@ Open VSX是[Visual Studio Marketplace](https://marketplace.visualstudio.com/vsco
 
  Express 服务器在 Gitpod 中自动启动。通常不需要重新启动。
  
-### server
+### 服务器
 
  * `./gradlew build` &mdash; 构建并测试服务器
  * `./gradlew assemble -t` &mdash;  持续构建（每次更改后服务器都会重新启动）
@@ -51,7 +51,7 @@ server/scripts/callback-url.sh github
 
 请注意,每当您创建新的Gitpod工作区时,都需要在[GitHub 上更新](https://github.com/settings/developers) 回调URL
 
-创建 GitHub OAuth app后，下一步是将Client ID和 Client Secret复制到名为`GITHUB_CLIENT_ID` 和 `GITHUB_CLIENT_SECRET`并绑定到此存储库的 [ Gitpod environment variables(https://www.gitpod.io/docs/environment-variables/)  果更改正在运行的工作区中的变量，请在目录中运行以更新应用程序属性。
+创建 GitHub OAuth app后，下一步是将Client ID和 Client Secret复制到名为`GITHUB_CLIENT_ID` 和 `GITHUB_CLIENT_SECRET`并绑定到此存储库的 [Gitpod environment variables](https://www.gitpod.io/docs/environment-variables/)  果更改正在运行的工作区中的变量，请在目录中运行以更新应用程序属性。
 
 完成这些设置后，您应该能够通过授权 OAuth app来登录。
 
